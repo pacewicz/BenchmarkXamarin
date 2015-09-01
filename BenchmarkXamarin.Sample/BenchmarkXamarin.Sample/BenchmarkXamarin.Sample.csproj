@@ -36,8 +36,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="BenchmarksBasic.cs" />
-    <Compile Include="BenchmarksString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +52,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\BenchmarkXamarin.Benchmarks\BenchmarkXamarin.Benchmarks.csproj">
+      <Project>{29d7f4e6-d9c1-4e66-af0c-4392b2f6c63d}</Project>
+      <Name>BenchmarkXamarin.Benchmarks</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\BenchmarkXamarin\BenchmarkXamarin.csproj">
       <Project>{2a8cf94b-530e-4189-949a-12c988ea1ff0}</Project>
       <Name>BenchmarkXamarin</Name>

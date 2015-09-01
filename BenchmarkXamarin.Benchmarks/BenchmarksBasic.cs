@@ -1,6 +1,6 @@
 ﻿namespace BenchmarkXamarin.Sample
 {
-    class BenchmarksBasic
+    public class BenchmarksBasic
     {
         [Benchmark]
         public void Empty()

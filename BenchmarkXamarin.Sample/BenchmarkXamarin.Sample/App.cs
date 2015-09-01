@@ -31,7 +31,7 @@ namespace BenchmarkXamarin.Sample
 
             BenchmarkManager manager = BenchmarkManager.Current;
             manager.Log += text => log.Text += Environment.NewLine + text;                       
-            manager.Register(GetType().GetTypeInfo().Assembly);
+            manager.Register(typeof(BenchmarksBasic).GetTypeInfo().Assembly);
         }
 
         private void OnStartBenchmarkClick(object obj)

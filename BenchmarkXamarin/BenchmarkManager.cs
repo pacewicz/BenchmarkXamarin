@@ -9,7 +9,7 @@ namespace BenchmarkXamarin
     public class BenchmarkManager
     {
         private const int WarmupCount = 100;
-        private const int WorkingCount = 1000;
+        private const int WorkingCount = 10000;
         private static readonly object[] Args = new object[0];
         private List<MethodInfo> _benchmarks = new List<MethodInfo>();
 
