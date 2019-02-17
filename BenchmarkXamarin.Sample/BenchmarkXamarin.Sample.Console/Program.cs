@@ -16,6 +16,7 @@ namespace BenchmarkXamarin.Sample.Console
             manager.Register(typeof(BenchmarksBasic).Assembly);
             manager.Start();
 
+            System.Console.WriteLine("Complete");
             ReadLine();
         }
     }
